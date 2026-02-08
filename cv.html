@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>あなたの名前 | CV</title>
+  <meta name="description" content="Curriculum Vitae" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <script defer src="./assets/script.js"></script>
+</head>
+
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <strong>あなたの名前</strong>
+      <span>Affiliation / Role</span>
+    </div>
+    <nav class="navlinks">
+      <a href="./index.html">Top</a>
+      <a href="./cv.html" aria-current="page">CV</a>
+      <a href="./research.html">Research</a>
+      <a href="./projects.html">Projects</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container hero">
+  <h1>CV</h1>
+  <p>必要なら PDF 版（cv.pdf）も置いてリンクできます。</p>
+</div>
+
+<main class="container">
+  <div class="grid">
+    <section class="card">
+      <h2>Education</h2>
+      <ul class="list">
+        <li><strong>PhD</strong>, University, Year–Year</li>
+        <li><strong>MSc</strong>, University, Year–Year</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Employment / Experience</h2>
+      <ul class="list">
+        <li><strong>Role</strong>, Organization, Year–Year — short description</li>
+        <li><strong>Role</strong>, Organization, Year–Year — short description</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Publications</h2>
+      <ol class="list">
+        <li>Author, Title, Journal, Year.</li>
+        <li>Author, Title, Conference, Year.</li>
+      </ol>
+      <hr />
+      <div class="small">TIP: BibTeX を貼る場合は、別ページ（publications.html）に分けてもOK。</div>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <div class="badges">
+        <span>MATLAB</span><span>Python</span><span>FreeFEM</span><span>Gmsh</span><span>HPC</span>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    © <span id="year"></span> あなたの名前
+  </div>
+</footer>
+</body>
+</html>
